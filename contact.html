@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Lamya Sharaby Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1 class="artist-name">Lamya Sharaby</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-color="purple">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link active" data-color="red">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="contact-title">Let's Create Something Amazing Together!</h1>
+                <p class="contact-subtitle">Ready to bring your ideas to life with colorful, engaging illustrations?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send Me a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type" required>
+                                <option value="">Select a project type</option>
+                                <option value="children-book">Children's Book Illustration</option>
+                                <option value="character-design">Character Design</option>
+                                <option value="educational">Educational Materials</option>
+                                <option value="commercial">Commercial Illustration</option>
+                                <option value="personal">Personal Project</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-1k">Under $1,000</option>
+                                <option value="1k-5k">$1,000 - $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-plus">$10,000+</option>
+                                <option value="discuss">Let's discuss</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="rush">Rush (1-2 weeks)</option>
+                                <option value="standard">Standard (3-4 weeks)</option>
+                                <option value="extended">Extended (1-2 months)</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Tell me about your project</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Describe your vision, target audience, style preferences, and any other details that would help me understand your project better..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>Get In Touch</h2>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>Lamya@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Creative City, CA</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div class="contact-details">
+                                <h3>Response Time</h3>
+                                <p>Usually within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <h3>Follow My Work</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-link instagram" data-platform="instagram">
+                                <span>📷</span>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link twitter" data-platform="twitter">
+                                <span>🐦</span>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link behance" data-platform="behance">
+                                <span>🎨</span>
+                                <span>Behance</span>
+                            </a>
+                            <a href="#" class="social-link dribbble" data-platform="dribbble">
+                                <span>🏀</span>
+                                <span>Dribbble</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Fun Illustration Placeholder -->
+                    <div class="contact-illustration">
+                        <div class="illustration-placeholder">
+                            <span>Contact Illustration</span>
+                            <p>Friendly character waving hello or working at a desk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Art Club Sign Up</h2>
+                <p>Get creative updates, behind-the-scenes content, and exclusive artwork via monthly newsletter!</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <p class="privacy-note">We respect your privacy and creativity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Lamya Sharaby. All images and illustrations are original works.</p>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content success-content">
+            <span class="close">&times;</span>
+            <div class="success-icon">🎉</div>
+            <h3>Message Sent Successfully!</h3>
+            <p>Thank you for reaching out! I'll get back to you within 24 hours with ideas for your amazing project.</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

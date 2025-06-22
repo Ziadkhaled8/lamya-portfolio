@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Artist Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1 class="artist-name">Lamya Sharaby</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active" data-color="purple">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link" data-color="red">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Lamya Sharaby</h1>
+                <p class="hero-subtitle">Illustrator • Designer • Daydream Expert</p>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-hero-art">
+                    <!-- Placeholder for main hero illustration -->
+                    <div class="hero-placeholder">
+                        <span>Hero Illustration Placeholder</span>
+                        <p>Colorful, whimsical illustration featuring diverse characters and fantastical elements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="children" data-color="green">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Children's Book Illustration</span>
+                            <p>Diverse children playing and learning together</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <button class="view-fullsize">View Fullsize</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-category="fantasy" data-color="orange">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Fantasy Adventure</span>
+                            <p>Magical creatures and adventure scenes</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <button class="view-fullsize">View Fullsize</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="educational" data-color="blue">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Educational Content</span>
+                            <p>Learning and discovery themed illustrations</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <button class="view-fullsize">View Fullsize</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="animals" data-color="purple">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Animal Friends</span>
+                            <p>Cute and friendly animal characters</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <button class="view-fullsize">View Fullsize</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="nature" data-color="green">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Nature & Environment</span>
+                            <p>Beautiful landscapes and environmental themes</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <button class="view-fullsize">View Fullsize</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item" data-category="characters" data-color="orange">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Character Design</span>
+                            <p>Unique and expressive character illustrations</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <button class="view-fullsize">View Fullsize</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 7 -->
+                <div class="portfolio-item" data-category="stories" data-color="blue">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Story Illustrations</span>
+                            <p>Narrative-driven artwork for books and stories</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <button class="view-fullsize">View Fullsize</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 8 -->
+                <div class="portfolio-item" data-category="celebration" data-color="purple">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Celebration & Joy</span>
+                            <p>Festive and joyful celebration scenes</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <button class="view-fullsize">View Fullsize</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Lamya Sharaby. All images and illustrations are original works.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for fullsize view -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-image" src="" alt="Portfolio piece">
+            <div class="modal-info">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
